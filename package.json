@@ -1,0 +1,36 @@
+{
+  "name": "cuddly-doodle",
+  "version": "1.0.0",
+  "description": "Sample Node.js Express app with tests",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilpareek-infoobj/cuddly-doodle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikhilpareek-infoobj/cuddly-doodle/issues"
+  },
+  "homepage": "https://github.com/nikhilpareek-infoobj/cuddly-doodle#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0",
+    "nodemon": "^2.0.20"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": ["src/**/*.js"],
+    "testPathIgnorePatterns": ["/node_modules/"]
+  }
+}
