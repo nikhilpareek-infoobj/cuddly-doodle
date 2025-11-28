@@ -1,32 +1,7 @@
-# cuddly-doodle
+IyBjdWRkbHktZG9vZGxlCgpUaGlzIGlzIGEgc21hbGwgTm9kZS5qcyArIEV4cHJlc3Mgc2FtcGxlIHByb2plY3Qgd2l0aCBzaW1wbGUgYXBpcyBhbmQgdGVzdHMuCgojIyMgVG9waWMgY2hhbmdlczogCgotIFVwZGF0ZSBhIGJl0xhc2UgdG8gcmVhZG1lIGFuZCB1cGRhdGUgdG8gZ2l2ZSBjbGVhciB1c2VyIG5v
+dGUgYW5kIHVzYWdlIGluZm9ybWF0aW9uCgojIyBQcmVxdWlzaXRlczogCi0gTm9kZS5qcyA3NCArIHBsZWFzZSB1c2UgaU4tU1NvdSAtIGZyZWNvc3RlciBvciBhdCBsZWFzdCAxOC4gCi0gTm9kZSBhbmQgTkBvc3NwIHJlc29s
+ZSBiZWZvcmUgc3VnZ2VzdGVkKgpgCnN0cmljdHM6ICAgCiAgLSBzdGFydDogICAgICAgICAgICAgICAgIG5wbiBhZ2VudAogIC0gZGV2OiAgICAgICAgICAgICAgICAgIG5vZGVtb24gZGV2CiAgLSB0ZXN0OiAgICAgICAgICAgICAgICBqZXN0CiAK
 
-This is a small Node.js + Express sample project with two demo APIs and tests.
+IyMgSW5zdGFsbCBhbmQgR3Jvd24gU3RlcHMKCiMgSW5zdGFsbCBkZXBlbmRlbmNpZXMgVGhlIGZvbGxvd2luZyBjb21tYW5kIHdpbGwgZmluZCB0aGUgcmVxdWlyZWQgcGFja2FnZXMgY29uc2lkZXJlZC5cclxuCgpg
 
-## APIs
-
-- GET /api/health - returns a JSON payload with status `ok` and the current server time.
-- POST /api/echo - echoes the posted JSON payload and appends an `echoedAt` timestamp.
-
-## Development
-
-Install dependencies:
-
-```powershell
-npm install
-```
-
-Run locally:
-
-```powershell
-npm run dev
-```
-
-Run tests:
-
-```powershell
-npm test
-```
-
-Server will run on port 3000 by default. Set `PORT` env variable to change it.
-
-Happy hacking!
+cG93ZXJzaGVsbApu cG0gaW5zdGFsbA==
